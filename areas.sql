@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `areas`;
 
 CREATE TABLE `areas` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -6,26 +7,25 @@ CREATE TABLE `areas` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
 INSERT INTO `areas` (`id`, `name`, `district_id`)
 VALUES
-	(1,'Alytaus raj.',9),
-	(2,'Lazdijų raj.',9),
-	(3,'Varėnos raj.',9),
-	(4,'Jonavos raj.',3),
-	(5,'Kaišiadorių raj.',3),
-	(6,'Kauno raj.',3),
-	(7,'Kėdainių raj.',3),
-	(8,'Prienų raj.',3),
-	(9,'Raseinių raj.',3),
-	(10,'Klaipėdos raj.',4),
-	(11,'Kretingos raj.',4),
-	(12,'Neringos raj.',4),
-	(13,'Palangos raj.',4),
-	(14,'Skuodo raj.',4),
-	(15,'Šilutės raj.',4),
-	(16,'Šakių raj.',10),
-	(17,'Vilkaviškio raj.',10),
+	(1,'Alytaus r.',9),
+	(2,'Lazdijų r.',9),
+	(3,'Varėnos r.',9),
+	(4,'Jonavos r.',3),
+	(5,'Kaišiadorių r.',3),
+	(6,'Kauno r.',3),
+	(7,'Kėdainių r.',3),
+	(8,'Prienų r.',3),
+	(9,'Raseinių r.',3),
+	(10,'Klaipėdos r.',4),
+	(11,'Kretingos r.',4),
+	(12,'Neringos r.',4),
+	(13,'Palangos r.',4),
+	(14,'Skuodo r.',4),
+	(15,'Šilutės r.',4),
+	(16,'Šakių r.',10),
+	(17,'Vilkaviškio r.',10),
 	(18,'Marijampolės sav.',10),
 	(19,'Kalvarijos sav.',10),
 	(20,'Kazlų Rūdos sav.',10),
